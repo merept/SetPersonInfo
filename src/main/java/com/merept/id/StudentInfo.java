@@ -45,10 +45,6 @@ public class StudentInfo extends PersonInfo implements Result {
         return id;
     }
 
-    public int getID() {
-        return id;
-    }
-
     @Override
     public String getResultEN() {
         return "Name: " + super.getName() + " - Student" + "\n" +
