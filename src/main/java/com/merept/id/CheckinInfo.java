@@ -1,5 +1,12 @@
 package com.merept.id;
 
+/**
+ * <p>所属包名: com.merept.id</p>
+ * <p>项目名称: SetPersonInfo</p>
+ * <p>文件名称: CheckinInfo</p>
+ * @author MerePT
+ */
+
 public class CheckinInfo {
     private CheckinInfo() {}
 

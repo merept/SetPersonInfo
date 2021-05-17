@@ -7,6 +7,13 @@ import com.merept.id.TeacherInfo;
 
 import java.util.Scanner;
 
+/**
+ * <p>所属包名: com.merept.setid</p>
+ * <p>项目名称: SetPersonInfo</p>
+ * <p>文件名称: INFOStore</p>
+ * @author MerePT
+ */
+
 public class INFOStore {
     private final int language;
 

@@ -2,6 +2,13 @@ package com.merept.id;
 
 import java.util.Scanner;
 
+/**
+ * <p>所属包名: com.merept.id</p>
+ * <p>项目名称: SetPersonInfo</p>
+ * <p>文件名称: PersonInfo</p>
+ * @author MerePT
+ */
+
 public class PersonInfo implements Result {
     private String name;
     private String gender;

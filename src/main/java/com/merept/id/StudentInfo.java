@@ -2,6 +2,13 @@ package com.merept.id;
 
 import java.time.LocalDate;
 
+/**
+ * <p>所属包名: com.merept.id</p>
+ * <p>项目名称: SetPersonInfo</p>
+ * <p>文件名称: StudentInfo</p>
+ * @author MerePT
+ */
+
 public class StudentInfo extends PersonInfo implements Result {
     private final LocalDate today = LocalDate.now();
     private final String gender;
