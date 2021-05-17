@@ -23,7 +23,6 @@ public class StudentInfo extends PersonInfo implements Result {
         year = birthday / 10000;
         month = (birthday % 10000) / 100;
         day = birthday % 100;
-        id = setID();
     }
 
     public int setID() {
@@ -54,13 +53,13 @@ public class StudentInfo extends PersonInfo implements Result {
     public String getResultEN() {
         return "Name: " + super.getName() + " - Student" + "\n" +
                 "Gender: " + super.getGenderEN() + "\n" +
-                "Your ID is " + getID() + "\n";
+                "Your ID is " + setID() + "\n";
     }
 
     @Override
     public String getResultZH() {
         return  "姓名: " + super.getName() + " 同学" +"\n" +
                 "性别: " + super.getGenderZH() + "\n" +
-                "学号: " + getID() + "\n";
+                "学号: " + setID() + "\n";
     }
 }
