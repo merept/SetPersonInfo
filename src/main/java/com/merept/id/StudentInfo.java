@@ -36,6 +36,7 @@ public class StudentInfo extends PersonInfo implements Result {
         if (r == 0) id += (r + 2);
         id += r;
         r = 0;
+        System.out.println();
         return id;
     }
 
