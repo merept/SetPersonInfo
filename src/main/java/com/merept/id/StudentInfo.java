@@ -15,7 +15,7 @@ public class StudentInfo extends PersonInfo implements Result {
     private int year = 0;
     private int month = 0;
     private int day = 0;
-    public int id = 100000;
+    private int id = 100000;
 
     public StudentInfo(String name, String gender, int birthday) {
         super(name, gender);
